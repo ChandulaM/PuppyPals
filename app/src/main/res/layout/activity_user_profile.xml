@@ -181,11 +181,13 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="0dp"
         android:layout_height="59dp"
+        android:layout_marginBottom="16dp"
         app:itemBackground="@color/design_default_color_background"
         app:itemIconTint="@color/design_default_color_error"
         app:itemTextColor="@color/design_default_color_error"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_navigation" />
 
