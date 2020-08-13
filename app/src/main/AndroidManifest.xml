@@ -9,18 +9,45 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Manage_breed_info" android:windowSoftInputMode="adjustPan">
+
+        <activity android:name=".AdminProfile">
+
+        </activity>
+
+        <activity android:name=".CusBreedInfo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ManageBreedInfo">
+
+        <activity android:name=".CusBreedSelect">
 
         </activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".AddBreedInfo"></activity>
+
+        <activity android:name=".UpadteBreedInfo" >
+
+        </activity>
+
+        <activity
+            android:name=".Manage_breed_info"
+            android:windowSoftInputMode="adjustPan" >
+
+
+        </activity>
+
+        <activity android:name=".ManageBreedInfo" >
+
+        </activity>
+
+        <activity android:name=".MainActivity" >
+
+        </activity>
+
+        <activity android:name=".AddBreedInfo" >
+
+        </activity>
     </application>
 
 </manifest>
