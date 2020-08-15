@@ -1,6 +1,12 @@
 package com.example.puppypals;
 
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
 
-public class botNav extends Activity {
+public class botNav extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_bot_nav);
+    }
 }
