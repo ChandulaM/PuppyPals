@@ -17,18 +17,51 @@
         <activity android:name=".UpdateProfile" />
         <activity android:name=".Register" />
         <activity android:name=".Login">
+
+        </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
+
+        <activity android:name=".AdminProfile">
+
+
+        </activity>
+
+        <activity android:name=".CusBreedInfo">
+
+        </activity>
+
+        <activity android:name=".CusBreedSelect">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <activity android:name=".UpadteBreedInfo" >
+
+
+        </activity>
+
+        <activity
+            android:name=".Manage_breed_info"
+            android:windowSoftInputMode="adjustPan" >
+
+
+
+        </activity>
+
+        <activity android:name=".ManageBreedInfo" >
+
+        </activity>
+
+
+
+        <activity android:name=".AddBreedInfo" >
+
+
         </activity>
 
         <meta-data
