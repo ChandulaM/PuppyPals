@@ -22,4 +22,6 @@
         app:layout_constraintVertical_bias="1.0"
         app:menu="@menu/bottom_navigation" />
 
+<!--    Chandula's part-->
+
 </androidx.constraintlayout.widget.ConstraintLayout>
