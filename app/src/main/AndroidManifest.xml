@@ -28,11 +28,13 @@
 
         <activity android:name=".UpadteBreedInfo" >
 
+
         </activity>
 
         <activity
             android:name=".Manage_breed_info"
             android:windowSoftInputMode="adjustPan" >
+
 
 
         </activity>
@@ -46,6 +48,7 @@
         </activity>
 
         <activity android:name=".AddBreedInfo" >
+
 
         </activity>
     </application>
