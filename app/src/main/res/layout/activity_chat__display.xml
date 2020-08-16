@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Chat_Display">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="417dp"
+        android:layout_height="23dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="635dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="66dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:srcCompat="@drawable/warning" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="66dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:srcCompat="@drawable/shop" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="66dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:srcCompat="@drawable/chat" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="211dp"
+        android:layout_height="22dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="211dp"
+        android:layout_height="22dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <ImageView
+        android:id="@+id/proPic1"
+        android:layout_width="89dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="136dp"
+        android:contentDescription="@string/proPic1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/puppy_laying_down_outside" />
+
+    <TextView
+        android:id="@+id/rTime3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="11.23 pm"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toEndOf="@+id/nameID1"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <TextView
+        android:id="@+id/rTime2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="11.23 pm"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toEndOf="@+id/nameID1"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <TextView
+        android:id="@+id/textMsgID1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/textMsgID1"
+        android:textSize="12dp"
+        app:layout_constraintStart_toEndOf="@+id/proPic1"
+        app:layout_constraintTop_toBottomOf="@+id/nameID1" />
+
+    <TextView
+        android:id="@+id/textMsgID2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/textMsgID2"
+        android:textSize="12dp"
+        app:layout_constraintStart_toEndOf="@+id/proPic2"
+        app:layout_constraintTop_toBottomOf="@+id/nameID2" />
+
+    <TextView
+        android:id="@+id/nameID1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/nameID1"
+        android:textAllCaps="true"
+        android:textColor="#111"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@+id/proPic1"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <TextView
+        android:id="@+id/nameID2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/nameID2"
+        android:textAllCaps="true"
+        android:textColor="#111"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@+id/proPic2"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <ImageView
+        android:id="@+id/proPic3"
+        android:layout_width="89dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/proPic3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/proPic2"
+        tools:srcCompat="@drawable/img_mononoke_20200809_181654_processed" />
+
+    <ImageView
+        android:id="@+id/proPic2"
+        android:layout_width="89dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/proPic2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/proPic1"
+        tools:srcCompat="@drawable/puppy_development_1280x720" />
+
+    <TextView
+        android:id="@+id/rTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="11.24 pm"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toEndOf="@+id/nameID1"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <TextView
+        android:id="@+id/nameID3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/nameID3"
+        android:textAllCaps="true"
+        android:textColor="#111"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@+id/proPic3"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <TextView
+        android:id="@+id/textMsgID3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/textMsgID3"
+        android:textSize="12dp"
+        app:layout_constraintStart_toEndOf="@+id/proPic3"
+        app:layout_constraintTop_toBottomOf="@+id/nameID3" />
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="185dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/search"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/search"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/nameID1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/newChat"
+        android:layout_width="72dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="96dp"
+        android:contentDescription="@string/newChat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@drawable/plus_4_256" />
+
+    <ImageView
+        android:id="@+id/myProfile"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/pup" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="133dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:text="Puppy Pals"
+        android:textSize="25dp"
+        android:textColor="#111"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat Room"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="211dp"
+        android:layout_height="22dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="66dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/search" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
