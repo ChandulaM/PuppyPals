@@ -37,4 +37,11 @@
     <string name="sample_name_2">Sample Name 2</string>
     <string name="view_btn_search">View</string>
     <string name="btn_chat_search">Chat</string>
+    <string name="app_name1">DogChat</string>
+    <string name="owner1">W.M.A.B. Wijesinghe</string>
+    <string name="noofpups1">7</string>
+    <string name="Tel1">0779802672</string>
+    <string name="email1">example123@gmail.com</string>
+    <string name="price1">25000.00</string>
+    <string name="breed1">Rotwiller</string>
 </resources>
